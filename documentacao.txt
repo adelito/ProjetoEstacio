@@ -1,0 +1,8 @@
+Sistema de acompalhamento
+Cadastro Aluno (Matricula, Nome)
+Cadastro Pendencia
+Cadastro Setor
+Usuario Perfil ?
+Perfil(Coordenação, Aluno, )
+Ocorrencia -
+
