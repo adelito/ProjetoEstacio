@@ -1,0 +1,51 @@
+<DOCTYPE! html>
+<html lang="pt" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Sistema de Chamados ESTACIO</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/main.js"></script>
+        <script type="text/javascript">
+        window.onload = function() {
+			dado = "tab-all";
+			mudaPag(dado);
+		};
+        </script>
+     </head>
+     <header>
+
+     </header>
+<body bgcolor="#E5E5E5">
+    <div class="body-allign">
+    <div class="body-container">
+        <div class="body-header">
+                <img class="logo" src="images/logo.png">
+                <div class="calendar-info">
+                    <img class="calendar" src="images/calendar.png">
+                    <div class="sistem-date">
+                        <h3>Hoje</h3>
+                        <h2>21 JUN 2021</h2>
+                    </div>
+                </div>
+                <button class="add-button">
+                    + Adicionar
+                </button>
+                <div>
+                    <img class="sinner" src="images/sinner.png" alt="images/sinner-tik.png">
+                    <img class="gear" src="images/gear.png">
+                </div>
+        </div>
+
+        <div class="table-dimension">
+            <div class="tabs">
+                <button class="tab1" name="tab1" ID="tab1" value="tab-all" autofocus=1 onclick="mudaPag(this)"><div class="text-tab">03 <h4>Todos</h4></div></button>
+                <button class="tab2" name="tab2" ID="tab2" value="tab-done" onclick="mudaPag(this)"><div class="text-tab">02 <h4>Concluidos</h4></div></button>
+                <button class="tab3" name="tab3" ID="tab3" value="tab-wait"  onclick="mudaPag(this)"><div class="text-tab">01 <h4>Em espera</h4></div></button>
+            </div>
+            <iframe class="iframe" src="" name="iframes" ID="frame" width="900" height="650"></iframe>
+        </div>
+        
+    </div> 
+    </div>
+</body>
+</html>
